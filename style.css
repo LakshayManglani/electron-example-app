@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background-color: rgb(10, 10, 10);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+
+.title {
+  color: green;
+  font-size: x-large;
+}
+
+.information {
+  color: orange;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  background-color: rgb(20, 20, 20);
+  border: 1px solid transparent;
+  border-radius: 100px;
+  cursor: pointer;
+  width: max-content;
+  font-size: medium;
+}
