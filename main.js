@@ -41,3 +41,5 @@ app.on("window-all-closed", () => {
     app.quit();
   }
 });
+
+import("update-electron-app")();
